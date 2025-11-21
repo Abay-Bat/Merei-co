@@ -66,9 +66,9 @@ function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <a onClick={() => setOpen(false)}>Home</a>
-          <a onClick={() => setOpen(false)}>Services</a>
-          <a onClick={() => setOpen(false)}>Contacts</a>
+          <a href="#home" onClick={() => setOpen(false)}>Home</a>
+          <a href="#projects" onClick={() => setOpen(false)}>Services</a>
+          <a href="#contacts" onClick={() => setOpen(false)}>Contacts</a>
         </motion.div>
       )}
     </motion.nav>
